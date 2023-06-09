@@ -19589,7 +19589,7 @@ function BeeSwarmSimulator(DATA){
                 }
             },
             desc:'A dipper drizzled with brittle liquid porcelain.<br><br>Collects 3 pollen from 49 flowers every 0.7s. Collects x1.5 more white pollen.<br><br>Every 10th swing summons a pillar of light that collects massive pollen.',
-            cost:['100000000 honey'],
+            cost:['-100000000 honey'],
 
         },
         
@@ -19731,7 +19731,7 @@ function BeeSwarmSimulator(DATA){
                 ParticleRenderer.add({x:player.body.position.x+x,y:player.body.position.y+y,z:player.body.position.z+z,vx:-player.bodyDir[2]*2,vy:1.75,vz:player.bodyDir[0]*2,grav:0,size:MATH.random(70,120),col:[1,0,Math.random()],life:1,rotVel:MATH.random(-3,3),alpha:4.5})
             },
             desc:'Swipe through flames to unlock their dark potential. Ensue dark chaos in fields and refuel burning flames, collecting more pollen and dealing more damage. Tend a destructive field of violet fire to enhance your Super-Crit power and Instant Red Conversion.',
-            cost:['2500000000000 honey','1000 redExtract','200 stinger','50 hardWax','15 superSmoothie']
+            cost:['-10000000000 honey']
         },
         
         tidePopper:{
@@ -19781,7 +19781,7 @@ function BeeSwarmSimulator(DATA){
                 
             },
             desc:'Pierce through flowers and bubbles with torriental waves, washing away tokens and converting pollen from bees. Swings faster and ramps up the more you pop, then unleashes tidal waves in a violent surge at 500 bubbles. Splash Balloons with tall waves to earn Tide Blessing and re-energize tidal waves with the destruction of bubbles.',
-            cost:['2500000000000 honey','1000 blueExtract','200 stinger','25 swirledWax','15 superSmoothie']
+            cost:['-2500000000000 honey']
         },
         
         gummyBaller:{
@@ -19821,7 +19821,7 @@ function BeeSwarmSimulator(DATA){
                 
             },
             desc:'Absorb goo to conjure up a delectable arsenal of gummy wrecking balls. Cover the field in goo and collect pollen with a giant gummyball. Ricochet off Marks and Honey Tokens to build up your gummyball combo for massive gooey gains.',
-            cost:['10000000000000 honey','1000 glue','2500 gumdrops','50 causticWax','3 turpentine']
+            cost:['-10000000000000 honey']
         },
     }
 
