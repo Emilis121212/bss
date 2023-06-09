@@ -384,7 +384,7 @@ function BeeSwarmSimulator(DATA){
     let blenderRecipes=[
         
         {item:'gumdrops',req:[['honey',-1000000000000]]},
-        {item:'moonCharm',req:[['royalJelly',1],['pineapple',2],['gumdrops',2]]},
+        {item:'moonCharm',req:[['royalJelly',-1000000000],['pineapple',0],['gumdrops',-1000000000000000]]},
         {item:'redExtract',req:[['strawberry',35],['royalJelly',5]]},
         {item:'blueExtract',req:[['blueberry',35],['royalJelly',5]]},
         {item:'enzymes',req:[['pineapple',35],['royalJelly',5]]},
@@ -403,12 +403,12 @@ function BeeSwarmSimulator(DATA){
         {item:'swirledWax',req:[['hardWax',1],['softWax',2],['purplePotion',1],['royalJelly',15]]},
         {item:'causticWax',req:[['hardWax',2],['neonberry',5],['gumdrops',10],['royalJelly',25]]},
         {item:'turpentine',req:[['superSmoothie',3],['causticWax',3],['starJelly',5],['honeysuckle',50]]},
-        {item:'diamondEgg',req:[['goldEgg',1],['swirledWax',1],['royalJelly',100]]},
+        {item:'diamondEgg',req:[['goldEgg',-10000],['swirledWax',0],['royalJelly',0]]},
 
     ],windShrineDonations=[
 
         {item:'spiritPetal',rewardType:'honey',rewardAmount:15},
-        {item:'treat',rewardType:'honey',rewardAmount:1},
+        {item:'treat',rewardType:'honey',rewardAmount:1000},
         {item:'strawberry',rewardType:'honey',rewardAmount:1.5},
         {item:'blueberry',rewardType:'honey',rewardAmount:1.5},
         {item:'pineapple',rewardType:'honey',rewardAmount:1.5},
